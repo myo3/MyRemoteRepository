@@ -15,6 +15,7 @@
 		DD297EC81EABDA2C00B169BC /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD297EC71EABDA2C00B169BC /* Route.swift */; };
 		DD297ECB1EABDD4A00B169BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD297ECA1EABDD4A00B169BC /* Default-568h@2x.png */; };
 		DD297ECD1EABF75300B169BC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD297ECC1EABF75300B169BC /* DetailViewController.swift */; };
+		DD297ED41EABFE1C00B169BC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD297ED31EABFE1C00B169BC /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DD297EC71EABDA2C00B169BC /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Model/Route.swift; sourceTree = "<group>"; };
 		DD297ECA1EABDD4A00B169BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DD297ECC1EABF75300B169BC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Controllers/DetailViewController.swift; sourceTree = "<group>"; };
+		DD297ED31EABFE1C00B169BC /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = View.swift; path = Views/View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		DD1813821EABB4620004AED5 /* TCAT */ = {
 			isa = PBXGroup;
 			children = (
+				DD297ED21EABFDE900B169BC /* View */,
 				DD297EC91EABDA3000B169BC /* Model */,
 				DD3931971EABD81E005FD9E2 /* Controllers */,
 				DD1813831EABB4620004AED5 /* AppDelegate.swift */,
@@ -133,6 +136,14 @@
 				DD297EC71EABDA2C00B169BC /* Route.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		DD297ED21EABFDE900B169BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD297ED31EABFE1C00B169BC /* View.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		DD3931971EABD81E005FD9E2 /* Controllers */ = {
@@ -279,6 +290,7 @@
 			files = (
 				DD297EC81EABDA2C00B169BC /* Route.swift in Sources */,
 				DD1813861EABB4620004AED5 /* ViewController.swift in Sources */,
+				DD297ED41EABFE1C00B169BC /* View.swift in Sources */,
 				DD1813841EABB4620004AED5 /* AppDelegate.swift in Sources */,
 				DD297ECD1EABF75300B169BC /* DetailViewController.swift in Sources */,
 			);
