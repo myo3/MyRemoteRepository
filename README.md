@@ -1,2 +1,2 @@
 # MyRemoteRepository
-CUAppDev Training Program
+CUAppDev Training Program Sp17
