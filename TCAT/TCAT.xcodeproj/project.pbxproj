@@ -15,6 +15,7 @@
 		DD297EC81EABDA2C00B169BC /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD297EC71EABDA2C00B169BC /* Route.swift */; };
 		DD297ECB1EABDD4A00B169BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD297ECA1EABDD4A00B169BC /* Default-568h@2x.png */; };
 		DD297ECD1EABF75300B169BC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD297ECC1EABF75300B169BC /* DetailViewController.swift */; };
+		DD297EDA1EAC01C200B169BC /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD297ED91EAC01C200B169BC /* Bus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DD297EC71EABDA2C00B169BC /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Model/Route.swift; sourceTree = "<group>"; };
 		DD297ECA1EABDD4A00B169BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DD297ECC1EABF75300B169BC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Controllers/DetailViewController.swift; sourceTree = "<group>"; };
+		DD297ED91EAC01C200B169BC /* Bus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bus.swift; path = Model/Bus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				DD297EC71EABDA2C00B169BC /* Route.swift */,
+				DD297ED91EAC01C200B169BC /* Bus.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				DD1813861EABB4620004AED5 /* ViewController.swift in Sources */,
 				DD1813841EABB4620004AED5 /* AppDelegate.swift in Sources */,
 				DD297ECD1EABF75300B169BC /* DetailViewController.swift in Sources */,
+				DD297EDA1EAC01C200B169BC /* Bus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
